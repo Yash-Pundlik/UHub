@@ -1,0 +1,34 @@
+﻿Team 27 Project Charter
+UniHub
+ 
+Team Members:
+Tejaswi Kotekar, Chris Concepcion, Scott VanVleet, Yash Pundlik
+ 
+Problem Statement:
+                Due to the rise in university web based resources, there has been a demand for accessibility and organization among the student population. UniHub addresses this issue by offering students a unique and efficient framework; the application minimizes latencies by allowing users to access university portals on one web application. 
+
+
+Project Objectives:
+* Develop a web application that will arrange university portals in one location. 
+* Develop a backend that allows a single login that holds login information to other web resources(single “master login”).
+* Implement modules that interact with the necessary APIs to retrieve grades, course information/announcements, deadlines, and emails.
+* Create a customizable interface to allow students to choose which modules they would like to see on his/her dashboard.
+* Develop a social module to encourage collaboration and study groups among students in a course.
+* To-do list to help keep students organize and prioritize tasks.
+* Filter Information for Courses
+* Piazza information
+* Calendar implementation, using a service that allows calendar sharing.
+* Weather information for Campus.
+
+
+Stakeholders:
+Users: The users will consist of Purdue students and faculty members.
+Developers: Tejaswi Kotekar, Chris Concepcion, Scott VanVleet, Yash Pundlik
+Project Manager: Scott VanVleet
+Project Owner: Chris Concepcion, Tejaswi Kotekar, Scott VanVleet, Yash Pundlik
+
+
+Project Deliverables:
+* A web application that displays university resources, with authenticated login,for the respective user. Should be accessible, efficient, and customizable features. 
+* A backend that calls APIs to provide a user’s respective grades, course registration, and general university announcements. 
+* Platform and frameworks include javascript libraries(React.js. Node.js) and for backend NoSQL/MongoDB.

@@ -1,0 +1,83 @@
+﻿UHub
+Team 27 - Product Backlog
+Scott VanVleet, Tejaswi Kotekar, Chris Concepcion, Yash Pundlik
+
+
+
+
+
+
+Problem Statement
+Due to the rise in university web based resources, there has been a demand for accessibility and organization among the student population. UniHub addresses this issue by offering students a unique and efficient framework; the application minimizes latencies by allowing users to access university portals on one web application. 
+
+
+Background Info:
+
+
+Audience
+Students across campus utilize multiple portals, resources, and services to access vital information regarding course work, grades, and announcements. The target audience would be all teachers and student who could benefit from this application. 
+
+
+Similar Platforms
+There are multiple similar platforms used for managements services including Blackboard, iClicker, Piazza, etc. These services allow students and teachers to access platform specific information in an interactive environment. Blackboard allows students to check grades and upload homework assignments, Piazza lets students receive updates and to ask/answer questions regarding coursework.
+
+
+Limitations
+The biggest limitation with the current available resources is that they are all separate services. Due to this, even just one class can have resources fractured across various platforms (Piazza, Blackboard, Official Course pages, etc.). Each one of these resources fill a specific niche for students and teachers, so our service will be a way to combine them all in one place.
+
+
+Functional Requirements:
+1. As a user, I would like to be able to register for a UHub account.
+2. As a user, I would like to be able to log on to my UHub account.
+3. As a user, I would like to be able to manage my UHub account.
+4. As a user, I would like to be able to reset my password to my UHub account.
+5. As a user, I would like to only log on ONCE to all platforms.
+6. As a user, I would like to easily navigate any platform.
+7. As a user, I would like to be able to customize my homepage, changing position of elements and which elements are shown.
+8. As a user, I would like to be able to “connect” with friends, that have an account on UHub. This will encourage collaboration and study groups.
+9. As a user, I would like to interact with a responsive design.
+10. As a student, I would like to view my grades.
+11. As a student, I would like to view deadlines for specific courses.
+12. As a student, I would like to view the courses I am enrolled in.
+13. As a student, I would like to access my school email.
+14. As a student, I would like to be able to ask and respond to questions related to course work.
+15. As a student, I would like to have access to a messaging board.
+16. As a student, I would like to be able to see if my peers are enrolled in similar courses.
+17. As a student, I would like to create study groups with my peers.
+18. As a student, I would like to have access to a personal to-do list.
+19. As a student, I would like to have access to an interactive calendar/planner.
+20. As a student, I would like to have access to Blackboard.
+21. As a student, I would like to have access to Piazza.
+22. As a student, I would like to have access to School Email.
+23. As a student, I would like to receive notifications for course announcements and grades.
+24. As a student, I would like to add events to my course calendar.
+25. As a student, I would like to view general school announcements.
+26. As a student, I would like to view possible transportation schedules.
+27. As a student, I would like to access UHub across multiple devices.
+28. As a student, I would like to have a sidebar with quick access to my resources.
+29. As a student, I would like to real-time updates when platforms are updated.
+30. As a student, I would like to have access to a universal feed, that displays all new “events”.
+
+
+
+
+Non-Functional Requirements:
+
+
+Architecture and Performance
+Our overall design is structured to be a strong backend that is represented on a lightweight frontend. The backend will consist of everything necessary to store data (usernames and passwords) and all the framework to be able to retrieve data from all the APIs. The frontend will be a minimalistic dashboard that can be easily customized for each students needs. This will be implemented using React.js, a javascript library.
+
+
+As for performance, the backend must be incredibly responsive. Logging in should quickly retrieve the essential APIs as quickly as possible.We plan to focus on the most essential APIs (Blackboard, Grades, Piazza, Email).
+
+
+Security
+The vast majority of information that will be passed through our service will be from APIs and separate services; they can handle the security of private information (usernames, passwords, student IDs, grades) by themselves. For the information stored, we will be using an Encrypting File System for the safety of the information.
+
+
+Usability
+Due to the implementation of several features and APIs, the interface and UI should be user friendly and self-explanatory for navigation and usability. We would like the front end to be split into 4 main components: the navigation bar, the sidebar, customizable sidebar, and the main body of the page that will display the different platforms and resources. If necessary, we will also create routes to new pages that carry more specific functionality with respect to the specified resource.
+
+
+Hosting/Deployment
+The front end will be hosted using github pages, easily accessible through a demo link on the github page. To integrate the back end with the front end, we hope to use AWS(Amazon web services) or similar.
